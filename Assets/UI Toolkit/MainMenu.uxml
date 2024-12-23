@@ -1,0 +1,14 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/UnityThemes/Mainmenuestyle.uss?fileID=7433441132597879392&amp;guid=66bf35adfc68ee94cba5964d91b0c96b&amp;type=3#Mainmenuestyle" />
+    <engine:VisualElement name="gamepg" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/menu.jpg?fileID=2800000&amp;guid=a5fec2c97a838fb40b9da2d008cc480a&amp;type=3#menu&quot;); justify-content: center; align-items: center;">
+        <engine:VisualElement name="mainmenu" style="flex-grow: 0; width: 1000px; height: 1000px; background-color: rgba(5, 1, 1, 0.74); border-top-width: 10px; border-right-width: 10px; border-bottom-width: 10px; border-left-width: 10px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; border-left-color: rgba(255, 246, 246, 0); border-right-color: rgba(255, 246, 246, 0); border-top-color: rgba(255, 246, 246, 0); border-bottom-color: rgba(255, 246, 246, 0); padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px;">
+            <engine:Label text="Main menu&#10;" style="font-size: 100px; -unity-text-align: middle-center; color: rgb(255, 255, 255); -unity-font-style: bold; -unity-font-definition: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=e8783798fd5e3d148a2c8eec3e84b931&amp;type=3#NotInter-Regular&quot;);" />
+            <engine:VisualElement name="VisualElement" style="flex-grow: 0; height: 2px; background-color: rgb(255, 255, 255); margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px;" />
+            <engine:VisualElement name="buttoncontainer" style="flex-grow: 1; text-shadow: 0 5px 0 rgba(0, 0, 0, 0); align-items: center; justify-content: center;">
+                <engine:Button text="START" name="Exit" selectable="false" class="main-menu-button Exit-button" style="height: 152px; width: 741px;" />
+                <engine:Button text="Settings" name="Settings" emoji-fallback-support="false" class="main-menu-button settings-button" style="-unity-background-image-tint-color: rgb(0, 0, 0); background-color: rgb(82, 161, 79); height: 133px; width: 689px; -unity-text-align: middle-center;" />
+                <engine:Button text="Exit" name="START" enable-rich-text="false" class="main-menu-button START-button" style="height: 125px; width: 680px;" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>
